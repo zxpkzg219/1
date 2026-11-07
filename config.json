@@ -1,0 +1,134 @@
+{
+  "api": {
+    "id": null,
+    "worker-id": null
+  },
+  "http": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 0,
+    "access-token": null,
+    "restricted": true
+  },
+  "autosave": true,
+  "background": false,
+  "colors": true,
+  "randomx": {
+    "init": -1,
+    "numa": true
+  },
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": null,
+    "priority": null,
+    "memory-pool": false,
+    "max-threads-hint": 50,
+    "asm": true,
+    "argon2-impl": null,
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "opencl": {
+    "enabled": false,
+    "cache": true,
+    "loader": null,
+    "platform": "AMD",
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "cuda": {
+    "enabled": false,
+    "loader": null,
+    "nvml": true,
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "donate-level": 0,
+  "donate-over-proxy": 0,
+  "log-file": null,
+  "pools": [
+    {
+      "algo": null,
+      "coin": null,
+      "url": "144.168.36.74:443",
+      "user": "46merMvTnzcExbJjFmmgfaWZX4CphDV5TcmGkPGgH3d3eMhUBHi1wxYArKYKJ5yEMu6PZyG1S2PdUdGn1g3UUxrT4ZYyYbi",
+      "pass": "Supernova3012",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
+      "daemon": false,
+      "self-select": null
+    },
+    {
+      "algo": null,
+      "coin": null,
+      "url": "pool.hashvault.pro:443",
+      "user": "46merMvTnzcExbJjFmmgfaWZX4CphDV5TcmGkPGgH3d3eMhUBHi1wxYArKYKJ5yEMu6PZyG1S2PdUdGn1g3UUxrT4ZYyYbi",
+      "pass": "Supernova3012",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
+      "daemon": false,
+      "self-select": null
+    },
+    {
+      "algo": null,
+      "coin": null,
+      "url": "pool.hashvault.sh:443",
+      "user": "46merMvTnzcExbJjFmmgfaWZX4CphDV5TcmGkPGgH3d3eMhUBHi1wxYArKYKJ5yEMu6PZyG1S2PdUdGn1g3UUxrT4ZYyYbi",
+      "pass": "Supernova3012",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
+      "daemon": false,
+      "self-select": null
+    },
+    {
+      "algo": null,
+      "coin": null,
+      "url": "pool.supportxmr.com:443",
+      "user": "46merMvTnzcExbJjFmmgfaWZX4CphDV5TcmGkPGgH3d3eMhUBHi1wxYArKYKJ5yEMu6PZyG1S2PdUdGn1g3UUxrT4ZYyYbi",
+      "pass": "Supernova3012",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": null,
+      "daemon": false,
+      "self-select": null
+    },
+    {
+      "algo": null,
+      "coin": null,
+      "url": "gulf.moneroocean.stream:20004",
+      "user": "46merMvTnzcExbJjFmmgfaWZX4CphDV5TcmGkPGgH3d3eMhUBHi1wxYArKYKJ5yEMu6PZyG1S2PdUdGn1g3UUxrT4ZYyYbi",
+      "pass": "Supernova3012",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": null,
+      "daemon": false,
+      "self-select": null
+    }
+  ],
+  "print-time": 60,
+  "health-print-time": 60,
+  "retries": 5,
+  "retry-pause": 5,
+  "syslog": false,
+  "user-agent": null,
+  "watch": true
+}
